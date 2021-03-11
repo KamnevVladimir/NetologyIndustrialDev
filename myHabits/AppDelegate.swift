@@ -41,6 +41,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         habitsNavigationController.navigationBar.isTranslucent = false
         habitsNavigationController.view.backgroundColor = .white
+        
         // Set attributes for large habits navigation bar
         habitsNavigationController.navigationBar.largeTitleTextAttributes = [
             .foregroundColor: UIColor.black,
