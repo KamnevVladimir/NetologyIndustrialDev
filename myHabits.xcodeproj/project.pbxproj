@@ -30,6 +30,29 @@
 		15444A8625DD47870074076D /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15444A8525DD47870074076D /* UILabel.swift */; };
 		15444A8A25DD7FDC0074076D /* DeleteAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15444A8925DD7FDC0074076D /* DeleteAlertViewController.swift */; };
 		15CB777425ED6FA1007D5C0D /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CB777325ED6FA1007D5C0D /* UIColor.swift */; };
+		15E3366725FAB807001A4688 /* HabitsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15444A3325D686BE0074076D /* HabitsStore.swift */; };
+		15E3366825FAB807001A4688 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CB777325ED6FA1007D5C0D /* UIColor.swift */; };
+		15E3366925FAB807001A4688 /* DeleteAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15444A8925DD7FDC0074076D /* DeleteAlertViewController.swift */; };
+		15E3366A25FAB807001A4688 /* HabitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15444A7A25D9C4730074076D /* HabitViewController.swift */; };
+		15E3366B25FAB807001A4688 /* ColorSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15444A6025D957100074076D /* ColorSet.swift */; };
+		15E3366C25FAB807001A4688 /* UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15444A4A25D6F9F50074076D /* UIStackView.swift */; };
+		15E3366D25FAB807001A4688 /* UIRoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15444A7E25DD23FB0074076D /* UIRoundView.swift */; };
+		15E3366E25FAB807001A4688 /* HabitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15444A1F25D6828E0074076D /* HabitsViewController.swift */; };
+		15E3366F25FAB807001A4688 /* TabBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15444A6425D957A10074076D /* TabBarModel.swift */; };
+		15E3367025FAB807001A4688 /* InfoText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15444A7425D99C8E0074076D /* InfoText.swift */; };
+		15E3367125FAB807001A4688 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15444A4B25D6F9F50074076D /* UIView.swift */; };
+		15E3367225FAB807001A4688 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15444A4E25D6F9F50074076D /* UIViewController.swift */; };
+		15E3367325FAB807001A4688 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15444A8525DD47870074076D /* UILabel.swift */; };
+		15E3367425FAB807001A4688 /* ProgressCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15444A6C25D96D270074076D /* ProgressCollectionViewCell.swift */; };
+		15E3367525FAB807001A4688 /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15444A7725D9B6A60074076D /* UITextView.swift */; };
+		15E3367625FAB807001A4688 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15444A4D25D6F9F50074076D /* UIImage.swift */; };
+		15E3367725FAB807001A4688 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15444A4425D692C10074076D /* InfoViewController.swift */; };
+		15E3367825FAB807001A4688 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15444A1B25D6828E0074076D /* AppDelegate.swift */; };
+		15E3367925FAB807001A4688 /* HabitsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15444A8225DD34D30074076D /* HabitsDetailsViewController.swift */; };
+		15E3367A25FAB807001A4688 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153403B325E01F2100F3345C /* Date.swift */; };
+		15E3367B25FAB807001A4688 /* HabitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15444A5D25D943FB0074076D /* HabitCollectionViewCell.swift */; };
+		15E3367E25FAB807001A4688 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15444A2625D682930074076D /* LaunchScreen.storyboard */; };
+		15E3367F25FAB807001A4688 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15444A2425D682930074076D /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,10 +81,19 @@
 		15444A8525DD47870074076D /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
 		15444A8925DD7FDC0074076D /* DeleteAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteAlertViewController.swift; sourceTree = "<group>"; };
 		15CB777325ED6FA1007D5C0D /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		15E3368325FAB807001A4688 /* myHabits dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "myHabits dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15E3368425FAB807001A4688 /* myHabits dev.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "myHabits dev.plist"; path = "/Users/v/Desktop/2021_Netology_Tasks/IndustrialDev/NetologyIndustrialDev/myHabits dev.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		15444A1525D6828E0074076D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15E3367C25FAB807001A4688 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,6 +108,7 @@
 			children = (
 				15444A1A25D6828E0074076D /* myHabits */,
 				15444A1925D6828E0074076D /* Products */,
+				15E3368425FAB807001A4688 /* myHabits dev.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				15444A1825D6828E0074076D /* myHabits.app */,
+				15E3368325FAB807001A4688 /* myHabits dev.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -170,6 +204,23 @@
 			productReference = 15444A1825D6828E0074076D /* myHabits.app */;
 			productType = "com.apple.product-type.application";
 		};
+		15E3366525FAB807001A4688 /* myHabits dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15E3368025FAB807001A4688 /* Build configuration list for PBXNativeTarget "myHabits dev" */;
+			buildPhases = (
+				15E3366625FAB807001A4688 /* Sources */,
+				15E3367C25FAB807001A4688 /* Frameworks */,
+				15E3367D25FAB807001A4688 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "myHabits dev";
+			productName = myHabits;
+			productReference = 15E3368325FAB807001A4688 /* myHabits dev.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,6 +249,7 @@
 			projectRoot = "";
 			targets = (
 				15444A1725D6828E0074076D /* myHabits */,
+				15E3366525FAB807001A4688 /* myHabits dev */,
 			);
 		};
 /* End PBXProject section */
@@ -209,6 +261,15 @@
 			files = (
 				15444A2825D682930074076D /* LaunchScreen.storyboard in Resources */,
 				15444A2525D682930074076D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15E3367D25FAB807001A4688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E3367E25FAB807001A4688 /* LaunchScreen.storyboard in Resources */,
+				15E3367F25FAB807001A4688 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +301,34 @@
 				15444A8325DD34D30074076D /* HabitsDetailsViewController.swift in Sources */,
 				153403B425E01F2100F3345C /* Date.swift in Sources */,
 				15444A5E25D943FB0074076D /* HabitCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15E3366625FAB807001A4688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E3366725FAB807001A4688 /* HabitsStore.swift in Sources */,
+				15E3366825FAB807001A4688 /* UIColor.swift in Sources */,
+				15E3366925FAB807001A4688 /* DeleteAlertViewController.swift in Sources */,
+				15E3366A25FAB807001A4688 /* HabitViewController.swift in Sources */,
+				15E3366B25FAB807001A4688 /* ColorSet.swift in Sources */,
+				15E3366C25FAB807001A4688 /* UIStackView.swift in Sources */,
+				15E3366D25FAB807001A4688 /* UIRoundView.swift in Sources */,
+				15E3366E25FAB807001A4688 /* HabitsViewController.swift in Sources */,
+				15E3366F25FAB807001A4688 /* TabBarModel.swift in Sources */,
+				15E3367025FAB807001A4688 /* InfoText.swift in Sources */,
+				15E3367125FAB807001A4688 /* UIView.swift in Sources */,
+				15E3367225FAB807001A4688 /* UIViewController.swift in Sources */,
+				15E3367325FAB807001A4688 /* UILabel.swift in Sources */,
+				15E3367425FAB807001A4688 /* ProgressCollectionViewCell.swift in Sources */,
+				15E3367525FAB807001A4688 /* UITextView.swift in Sources */,
+				15E3367625FAB807001A4688 /* UIImage.swift in Sources */,
+				15E3367725FAB807001A4688 /* InfoViewController.swift in Sources */,
+				15E3367825FAB807001A4688 /* AppDelegate.swift in Sources */,
+				15E3367925FAB807001A4688 /* HabitsDetailsViewController.swift in Sources */,
+				15E3367A25FAB807001A4688 /* Date.swift in Sources */,
+				15E3367B25FAB807001A4688 /* HabitCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +502,46 @@
 			};
 			name = Release;
 		};
+		15E3368125FAB807001A4688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9Z7P63FZX;
+				INFOPLIST_FILE = "myHabits dev.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vladimirKamnev.myHabits-Dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15E3368225FAB807001A4688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9Z7P63FZX;
+				INFOPLIST_FILE = "myHabits dev.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vladimirKamnev.myHabits-Dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -430,6 +559,15 @@
 			buildConfigurations = (
 				15444A2D25D682930074076D /* Debug */,
 				15444A2E25D682930074076D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15E3368025FAB807001A4688 /* Build configuration list for PBXNativeTarget "myHabits dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15E3368125FAB807001A4688 /* Debug */,
+				15E3368225FAB807001A4688 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
