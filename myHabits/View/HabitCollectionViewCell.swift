@@ -12,8 +12,10 @@ class HabitCollectionViewCell: UICollectionViewCell {
             
             if safeHabit.isAlreadyTakenToday {
                 roundColorView.backgroundColor = safeHabit.color
+                checkmarkImageView.isHidden = false
             } else {
                 roundColorView.backgroundColor = UIColor.clear
+                checkmarkImageView.isHidden = true
             }
         }
     }
@@ -68,7 +70,8 @@ class HabitCollectionViewCell: UICollectionViewCell {
     private lazy var checkmarkImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.toAutoLayout()
-        imageView.image = UIImage(systemName: "checkmark")
+        imageView.image = #imageLiteral(resourceName: "checkmark")
+        imageView.image = imageView.image?.withRenderingMode(.alwaysTemplate)
         imageView.tintColor = .white
         return imageView
     }()
@@ -123,6 +126,8 @@ class HabitCollectionViewCell: UICollectionViewCell {
             
             checkmarkImageView.centerXAnchor.constraint(equalTo: roundColorView.centerXAnchor),
             checkmarkImageView.centerYAnchor.constraint(equalTo: roundColorView.centerYAnchor),
+            checkmarkImageView.widthAnchor.constraint(equalToConstant: 15),
+            checkmarkImageView.heightAnchor.constraint(equalToConstant: 15),
             
             habitNameLabel.trailingAnchor.constraint(equalTo: roundColorView.leadingAnchor, constant: -20),
             

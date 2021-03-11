@@ -14,7 +14,7 @@ enum ColorName {
 struct ColorSet {
     static let colors: [ColorName: UIColor] = [
         .systemGray: UIColor.systemGray,
-        .systemGray2: UIColor.systemGray2,
+        .systemGray2: UIColor(red: 174, green: 174, blue: 178),
         .nearWhite: UIColor(red: 242, green: 242, blue: 247),
         .violet: UIColor(red: 161, green: 22, blue: 204),
         .blue: UIColor(red: 41, green: 109, blue: 255),
